@@ -3,7 +3,7 @@
 
 #include <memory>
 
-template <typename T>
+template <class T>
 
 	class CNode
 	{
@@ -11,13 +11,16 @@ template <typename T>
 			//Variable pour la position de l'élément (T)
 			T m_Data;
 
+			//Varaible pour l'élément précédent (smart pointeur)
+			std::shared_ptr <CNode <T> > m_Prev;
+
 			//Varaible pour l'élément suivant (smart pointeur)
 			std::shared_ptr <CNode <T> > m_Next;
 
 		public:
 				/******* Constructeur CNode *******/
 
-				CNode (int i = 0, std::shared_ptr <CNode <T> > ptr = nullptr);
+				CNode (const T &valeur = T (), const std::shared_ptr <CNode <T> > precedent = 0, const std::shared_ptr <CNode <T> > suivant = 0);
 
 				/******* Destructeur CNode *******/
 
@@ -26,13 +29,13 @@ template <typename T>
 				/******* Getter & Setter *******/
 
 				//Récupérer la position de l'élément
-				int GetData() const;
+				T GetData(void) const;
 
 				//Récupérer l'élément suivant
-				std::shared_ptr <CNode <T> > GetNextNode() const;
+				std::shared_ptr <CNode <T> > GetNextNode(void) const;
 
 				//Modifier la position d'un élément
-				void SetData(int value);
+				void SetData(const T &valeur);
 
 				//Modifier l'élément suivant
 				void SetNextNode(std::shared_ptr <CNode <T> >);
@@ -40,3 +43,4 @@ template <typename T>
 	}; // CNode
 
 #endif // CNODE_H
+
