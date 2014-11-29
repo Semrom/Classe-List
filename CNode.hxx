@@ -1,3 +1,18 @@
+/********************************
+ * @author	Romain Semler, Yon Vidal, 
+ * 		Jérémy Rossignol, Kévin Rozotte
+ * 		Manon Saillard
+ * 
+ * @file	CNode.hxx
+ * 
+ * @date	28/11/2014
+ * 
+ * @update	29/11/2014
+ * 
+ * @synopsis	Implémentation des fonctions 
+ * 		définies dans CNode.h
+ * *******************************/
+
 #ifndef __CNODE_HXX__
 #define __CNODE_HXX__
 
