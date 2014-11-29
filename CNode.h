@@ -1,3 +1,16 @@
+/********************************
+ * @author	Romain Semler, Yon Vidal, 
+ * 		Jérémy Rossignol, Kévin Rozotte
+ * 		Manon Saillard
+ * 
+ * @file	CNode.h
+ * 
+ * @date	28/11/2014
+ * 
+ * @synopsis	Définitions de fonctions 
+ * 		implémentées dans CNode.hxx
+ * *******************************/
+
 #ifndef __CNODE_H__
 #define __CNODE_H__
 
