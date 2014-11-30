@@ -7,6 +7,8 @@
  * 
  * @date	28/11/2014
  * 
+ * @update	29/11/2014
+ * 
  * @synopsis	Définitions de fonctions 
  * 		implémentées dans CNode.hxx
  * *******************************/
