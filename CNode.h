@@ -35,8 +35,9 @@ template <class T>
 		public:
 				/******* Constructeurs CNode *******/
 
-        CNode();
-				CNode (const T &valeur = T (), const std::shared_ptr <CNode <T> > precedent = 0, const std::shared_ptr <CNode <T>>  suivant = 0);
+                		CNode();
+				CNode (const T &valeur = T (), const std::shared_ptr <CNode <T> > precedent = 0, 
+							       const std::shared_ptr <CNode <T>>  suivant = 0);
 
 				/******* Destructeur CNode *******/
 
