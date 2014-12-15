@@ -1,3 +1,16 @@
+/********************************
+* @author   Alexy Torres (autre équipe)
+*
+* @file     CList_V2.h
+*
+* @date     02/12/2014
+*
+* @update   15/12/2014
+*
+* @synopsis Classe CList.h, version 2
+*
+* *******************************/
+
 #ifndef __CLISTV2_H__
 #define __CLISTV2_H__
 
