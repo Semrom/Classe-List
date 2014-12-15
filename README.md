@@ -1,7 +1,7 @@
 CList-Projet-cpp-2014
 =====================
 
-Archives des fichiers C++ d'un projet réalisé en 2014 avec la classe CList.
+Archives des fichiers C++ d'un projet réalisé en 2014 qui consiste à réécrire la classe "List".
 
 Mon équipe :
 - ROSSIGNOL Jérémy
