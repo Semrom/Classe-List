@@ -50,7 +50,7 @@ TEMPL
 CLIST::CList (size_t N)
 {
   // Modifier la taille de la liste
-	m_Size = N;
+  m_Size = N;
 
   // Création de deux sentinelles
   m_Head = std::make_shared <CNode <T> > (CNode <T> (T ()));
@@ -75,7 +75,7 @@ CLIST::CList (size_t N)
   }
 
     // Modifier le curseur à Head
-  m_Cursor = m_Head;
+      m_Cursor = m_Head;
 
 } 
 
@@ -83,7 +83,7 @@ TEMPL
 CLIST::CList (size_t N, const T &KValue)
 {
   // Modifier la taille de la liste
-	m_Size = N;
+  m_Size = N;
 
   // Création de deux sentinelles
   m_Head = std::make_shared <CNode <T> > (CNode <T> (T ()));
