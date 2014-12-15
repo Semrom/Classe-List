@@ -14,9 +14,9 @@
 #ifndef __CLIST_H__
 #define __CLIST_H__
 
-#include <memory>   // std::shared_ptr
-#include <vector>   // std::vector
-#include <utility>	// std::swap
+#include <memory>   
+#include <vector>   
+#include <utility>
 
 #include "CNode.h"  
 
@@ -34,8 +34,9 @@ class CList
       
   public:
       /******* Constructeurs CList *******/
-			typedef T& reference;
-			typedef const T& const_reference;
+      typedef T& reference;
+      typedef const T& const_reference;
+      
       explicit CList (void);
       explicit CList (size_t N);
       explicit CList (size_t N, const T &KValue);
