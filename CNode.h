@@ -24,7 +24,7 @@ class CNode
 {
     private:
         //Variable pour la position de l'élément (T)
-        T m_Data;
+        T& m_Data;
 
         //Varaible pour l'élément précédent (smart pointeur)
         std::shared_ptr <CNode <T> > m_Prev;
