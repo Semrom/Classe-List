@@ -9,6 +9,6 @@ Mon équipe :
 - SAILLARD Manon
 - VIDAL Yon
 
-NOTE : Certains fichiers viennent d'une autre équipe.
+NOTES : Certains fichiers viennent d'une autre équipe. Les fichiers de tests ainsi que le programme principal ne sont pas présents pour le moment.
 
 Romain Semler ©2014
