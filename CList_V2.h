@@ -27,10 +27,10 @@ class CListV2
     
     public:
     	typedef T& reference;
-			typedef const T& const_reference;
-			typedef const CIterator <T> const_iterator;
-			typedef const CRevIterator <T> const_reverse_iterator;
-			typedef CRevIterator <T> reverse_iterator;
+	typedef const T& const_reference;
+	typedef const CIterator <T> const_iterator;
+	typedef const CRevIterator <T> const_reverse_iterator;
+	typedef CRevIterator <T> reverse_iterator;
 
       explicit CListV2 (void);
       explicit CListV2 (size_t N);
@@ -64,7 +64,7 @@ class CListV2
             void merge (CListV2& CListToMerge);
 
       template <class Compare>
-		      	void merge (CListV2& CListToMerge, Compare Comparator);
+	    void merge (CListV2& CListToMerge, Compare Comparator);
       
       iterator end (void);
       const_iterator cend (void) const;
