@@ -73,8 +73,8 @@ class CList
           void reverse    (void);
           void merge (CList& CListToMerge);
 
-			template <class Compare>
-			    void merge (CList& CListToMerge, Compare Comparator);
+	template <class Compare>
+	  void merge (CList& CListToMerge, Compare Comparator);
 
 };
 
