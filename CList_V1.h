@@ -1,7 +1,7 @@
 /********************************
 * @author   Alexy Torres (autre équipe)
 *
-* @file     CList.h
+* @file     CList_V1.h
 *
 * @date     24/11/2014
 *
