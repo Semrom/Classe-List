@@ -1,7 +1,7 @@
 Projet C++ : la classe "List"
 =====================
 
-Ceci est un projet en équipe réalisé au département informatique de l'IUT d'Aix-Marseille (site d'Aix-en-Provence) en 2014.
+Ceci est un projet (non abouti) en équipe réalisé au département informatique de l'IUT d'Aix-Marseille (site d'Aix-en-Provence) en 2014.
 
 Le projet consistait à réécrire la classe "List". Il est actuellement inachevé.
 
